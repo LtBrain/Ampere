@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 7.5692,
+          "width": 10.7188
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.125
         }
       },
       "diff_pair_dimensions": [
@@ -201,7 +201,8 @@
         0.3,
         0.4,
         0.5,
-        0.6
+        0.6,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -663,9 +664,19 @@
         "filename": "usb_pd.kicad_sch",
         "name": "USB PD",
         "uuid": "8a6a9ad3-5df1-4e31-824c-811a1f6dd084"
+      },
+      {
+        "filename": "buck_channels.kicad_sch",
+        "name": "Buck Converters",
+        "uuid": "329c36c3-da44-49fd-8f70-d92646be88d6"
+      },
+      {
+        "filename": "linear_converters.kicad_sch",
+        "name": "Linear Converters",
+        "uuid": "a33bb2f4-47e5-4150-9820-94c9203f0e27"
       }
     ],
-    "used_designators": "#PWR63-64",
+    "used_designators": "C117",
     "variants": []
   },
   "sheets": [
@@ -676,6 +687,14 @@
     [
       "8a6a9ad3-5df1-4e31-824c-811a1f6dd084",
       "USB PD"
+    ],
+    [
+      "329c36c3-da44-49fd-8f70-d92646be88d6",
+      "Buck Converters"
+    ],
+    [
+      "a33bb2f4-47e5-4150-9820-94c9203f0e27",
+      "Linear Converters"
     ]
   ],
   "text_variables": {},

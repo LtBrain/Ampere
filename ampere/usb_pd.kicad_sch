@@ -7,7 +7,7 @@
 	(title_block
 		(title "USB Power Delivery 3.1 Chipset")
 		(date "2026-07-09")
-		(rev "A")
+		(rev "B")
 		(comment 1 "Brian Guan")
 		(comment 2 "TPD4S480RUKR")
 		(comment 3 "TPS26750SRSMR")
@@ -3915,6 +3915,12 @@
 		(uuid "9fdd009d-074d-4f61-bddf-b861104131ab")
 	)
 	(junction
+		(at 245.745 139.065)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a152d2a2-cd1e-4f90-b488-e01f70befb47")
+	)
+	(junction
 		(at 154.305 62.865)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3957,12 +3963,6 @@
 		(uuid "b3461e37-cb76-490a-bc61-7d2caa4f09d0")
 	)
 	(junction
-		(at 245.745 139.065)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b45f850b-0f6d-417b-b51b-05343fd4c227")
-	)
-	(junction
 		(at 159.385 57.785)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3987,6 +3987,12 @@
 		(uuid "d44b7626-5166-4545-9055-f7536c8c7164")
 	)
 	(junction
+		(at 218.44 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5bf68e3-4c4f-4084-9684-0725b7145a87")
+	)
+	(junction
 		(at 126.365 104.775)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4003,12 +4009,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecfd63e3-ea1b-4898-b931-464e72cd5274")
-	)
-	(junction
-		(at 218.44 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef4a41f4-45ef-4670-8644-87c9e3935c6c")
 	)
 	(junction
 		(at 233.045 84.455)
@@ -6228,16 +6228,6 @@
 		)
 		(uuid "349b050b-79b8-41dd-83ae-3b261c71c5c3")
 	)
-	(label "ADCIN1"
-		(at 120.015 85.725 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "358b6ec2-fa13-4e16-ac08-ce6c2b33dfa1")
-	)
 	(label "SBU1"
 		(at 100.965 164.465 0)
 		(effects
@@ -6407,16 +6397,6 @@
 			(justify left bottom)
 		)
 		(uuid "797018a6-24d7-46e9-a703-beebd02a4811")
-	)
-	(label "ADCIN2"
-		(at 120.015 88.265 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c0f59c0-1987-4430-9a89-af5b8c829a04")
 	)
 	(label "VBUS_LV"
 		(at 193.675 52.705 0)
@@ -6786,30 +6766,6 @@
 			)
 		)
 	)
-	(global_label "ADCIN2"
-		(shape input)
-		(at 128.905 88.265 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3cb309a9-9935-4bd9-8139-2e88b7aa7122")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.6549 88.265 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "PP_EN"
 		(shape input)
 		(at 252.73 139.065 0)
@@ -6927,30 +6883,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "ADCIN1"
-		(shape input)
-		(at 128.905 85.725 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f9f6d1a-a2fb-4301-8bdd-f847fee9d0b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.8968 85.725 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -7696,9 +7628,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "17cbac48-d9d9-4a5b-aaba-189ac22c424b")
 		(property "Reference" "#PWR016"
@@ -8668,9 +8600,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "30b6f40f-b75c-47d2-8d47-0c5b7872e465")
 		(property "Reference" "R10"
 			(at 122.555 120.015 0)
@@ -9167,7 +9099,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CSD25480F3"
+		(property "Value" "CSD25481F4"
 			(at 155.575 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9178,7 +9110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_PicoStar_DFN-3_0.69x0.60mm"
+		(property "Footprint" "CSD25481F4:TRANS_CSD25481F4"
 			(at 187.833 149.606 0)
 			(hide yes)
 			(show_name no)
@@ -9189,7 +9121,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd25480f3.pdf"
+		(property "Datasheet" "ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd25481f4"
 			(at 188.595 151.892 0)
 			(hide yes)
 			(show_name no)
@@ -9939,15 +9871,94 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 128.905 85.725 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "502febf5-d4ec-4bfe-b1f4-7949aedef4e9")
+		(property "Reference" "#PWR063"
+			(at 135.255 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.715 85.7249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.905 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.905 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.905 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b41bc9c-8395-4eea-81a8-89966bb33c1a")
+		)
+		(instances
+			(project "ampere"
+				(path "/8a6a9ad3-5df1-4e31-824c-811a1f6dd084"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 121.285 118.745 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "524d16a6-5589-4cf8-8f6c-3c2f1bbebdc2")
 		(property "Reference" "#PWR042"
 			(at 121.285 122.555 0)
@@ -10257,9 +10268,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5c12cbe5-ee1e-422c-83c3-08527ed759c5")
 		(property "Reference" "R8"
 			(at 113.665 120.015 0)
@@ -10353,7 +10364,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CSD15380F3"
+		(property "Value" "CSD13381F4"
 			(at 132.08 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10364,7 +10375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_PicoStar_DFN-3_0.69x0.60mm"
+		(property "Footprint" "CSD13381F4:DFN100X60X35-3N"
 			(at 137.16 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10816,6 +10827,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:CSD13380F3")
+		(at 215.9 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a1b1e0c-021d-43f0-801f-5a776444f37b")
+		(property "Reference" "Q6"
+			(at 213.995 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CSD13381F4"
+			(at 213.995 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CSD13381F4:DFN100X60X35-3N"
+			(at 220.98 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd13380f3.pdf"
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "3.6A Id, 12V Vds, N-Channel MOSFET, 76mOhm Ron,max @ 4.5Vgs, 0.91nC Qg,typ @ 4.5Vgs, PicoStar 0.73x0.64mm max, 0.69x0.60mm nom"
+			(at 264.16 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4afb38e-8b8c-457e-bc28-9edeb77ee80d")
+		)
+		(pin "2"
+			(uuid "18122183-89f3-4a95-9d61-b423cd74f193")
+		)
+		(pin "3"
+			(uuid "309fbd7a-93f4-4fc4-b2b3-3a8e17484513")
+		)
+		(instances
+			(project "ampere"
+				(path "/8a6a9ad3-5df1-4e31-824c-811a1f6dd084"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 230.505 46.355 270)
 		(unit 1)
@@ -10901,9 +10999,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6e59911b-732b-4fb6-a153-9f3004ab032f")
 		(property "Reference" "#PWR017"
@@ -12403,9 +12501,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "afa1a960-49e9-4cba-bb20-da20e5617389")
 		(property "Reference" "#PWR041"
 			(at 112.395 122.555 0)
@@ -12888,6 +12986,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 128.905 88.265 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be16db42-194f-44c8-9eb7-b961f3a3c0ce")
+		(property "Reference" "#PWR064"
+			(at 135.255 88.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.715 88.2649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.905 88.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.905 88.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.905 88.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b8653c2-9d15-4435-b0f1-9ef5b09a6a2e")
+		)
+		(instances
+			(project "ampere"
+				(path "/8a6a9ad3-5df1-4e31-824c-811a1f6dd084"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 230.505 38.735 270)
 		(unit 1)
@@ -13049,102 +13226,15 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:CSD13380F3")
-		(at 243.205 144.145 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c73d3b8a-153e-4333-9a42-8c2c20352ddb")
-		(property "Reference" "Q7"
-			(at 241.3 146.685 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CSD15380F3"
-			(at 241.3 149.225 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Texas_PicoStar_DFN-3_0.69x0.60mm"
-			(at 248.285 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd13380f3.pdf"
-			(at 248.285 147.955 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "3.6A Id, 12V Vds, N-Channel MOSFET, 76mOhm Ron,max @ 4.5Vgs, 0.91nC Qg,typ @ 4.5Vgs, PicoStar 0.73x0.64mm max, 0.69x0.60mm nom"
-			(at 291.465 144.145 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af6450fc-a3fa-4087-8baf-7359e7fd0940")
-		)
-		(pin "2"
-			(uuid "75c654d7-96f1-430e-899d-f6853015a609")
-		)
-		(pin "3"
-			(uuid "5136fd06-b3e7-43b3-b694-c8ea3473d880")
-		)
-		(instances
-			(project "ampere"
-				(path "/8a6a9ad3-5df1-4e31-824c-811a1f6dd084"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 112.395 128.905 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d03e38ad-099a-4290-86dd-dc63993a9755")
 		(property "Reference" "R9"
 			(at 113.665 127.635 0)
@@ -13791,9 +13881,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "de369f46-0150-44c6-87da-2a14691f4911")
 		(property "Reference" "R11"
 			(at 122.555 127.635 0)
@@ -13965,7 +14055,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CSD15380F3"
+		(property "Value" "CSD13381F4"
 			(at 155.575 179.705 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13976,7 +14066,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_PicoStar_DFN-3_0.69x0.60mm"
+		(property "Footprint" "CSD13381F4:DFN100X60X35-3N"
 			(at 162.56 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -14181,93 +14271,6 @@
 			(project "ampere"
 				(path "/8a6a9ad3-5df1-4e31-824c-811a1f6dd084"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:CSD13380F3")
-		(at 215.9 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f3723634-c240-453b-b36e-e56419632c47")
-		(property "Reference" "Q6"
-			(at 213.995 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CSD15380F3"
-			(at 213.995 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Texas_PicoStar_DFN-3_0.69x0.60mm"
-			(at 220.98 145.415 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd13380f3.pdf"
-			(at 220.98 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "3.6A Id, 12V Vds, N-Channel MOSFET, 76mOhm Ron,max @ 4.5Vgs, 0.91nC Qg,typ @ 4.5Vgs, PicoStar 0.73x0.64mm max, 0.69x0.60mm nom"
-			(at 264.16 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef5a117b-b75b-45c3-bc59-1de8cbd03898")
-		)
-		(pin "2"
-			(uuid "c3229184-3700-4a51-95df-90f006b1cad2")
-		)
-		(pin "3"
-			(uuid "58db88bc-2145-41e2-8c09-0088ee5151dd")
-		)
-		(instances
-			(project "ampere"
-				(path "/8a6a9ad3-5df1-4e31-824c-811a1f6dd084"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -15004,7 +15007,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CSD25480F3"
+		(property "Value" "CSD25481F4"
 			(at 132.08 160.655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15015,7 +15018,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_PicoStar_DFN-3_0.69x0.60mm"
+		(property "Footprint" "CSD25481F4:TRANS_CSD25481F4"
 			(at 162.433 149.606 0)
 			(hide yes)
 			(show_name no)
@@ -15026,7 +15029,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd25480f3.pdf"
+		(property "Datasheet" "ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd25481f4"
 			(at 163.195 151.892 0)
 			(hide yes)
 			(show_name no)
@@ -15142,6 +15145,93 @@
 			(project "ampere"
 				(path "/8a6a9ad3-5df1-4e31-824c-811a1f6dd084"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:CSD13380F3")
+		(at 243.205 144.145 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb3db41e-1e14-4255-87cd-94eefddbb270")
+		(property "Reference" "Q7"
+			(at 241.3 146.685 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CSD13381F4"
+			(at 241.3 149.225 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CSD13381F4:DFN100X60X35-3N"
+			(at 248.285 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd13380f3.pdf"
+			(at 248.285 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "3.6A Id, 12V Vds, N-Channel MOSFET, 76mOhm Ron,max @ 4.5Vgs, 0.91nC Qg,typ @ 4.5Vgs, PicoStar 0.73x0.64mm max, 0.69x0.60mm nom"
+			(at 291.465 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "340702b1-4148-4523-83cb-2011c003b046")
+		)
+		(pin "2"
+			(uuid "c66f45a6-faf6-4776-9f48-86ed93580d19")
+		)
+		(pin "3"
+			(uuid "6a38c9c8-58df-4c3e-aead-bdf7ed35ba59")
+		)
+		(instances
+			(project "ampere"
+				(path "/8a6a9ad3-5df1-4e31-824c-811a1f6dd084"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
