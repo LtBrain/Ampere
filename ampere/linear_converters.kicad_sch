@@ -5,7 +5,7 @@
 	(uuid "178ff2f9-1508-4d8c-a726-4eb013f6c7f5")
 	(paper "A4")
 	(title_block
-		(title "Linear Power Channels")
+		(title "Linear Regulator Channels")
 		(comment 1 "Brian Guan")
 		(comment 2 "INA238")
 		(comment 3 "MIC29302WU")

@@ -678,9 +678,14 @@
         "filename": "linear_converters.kicad_sch",
         "name": "Linear Converters",
         "uuid": "a33bb2f4-47e5-4150-9820-94c9203f0e27"
+      },
+      {
+        "filename": "system_power.kicad_sch",
+        "name": "System Power",
+        "uuid": "1185f329-4d82-40ea-a8af-41c123e478f8"
       }
     ],
-    "used_designators": "C109,C115,C118,#PWR28,#PWR81-82,#PWR97,#PWR119,Q13-14,R80-81,U22",
+    "used_designators": "C109,C115,C118-129,L4,#PWR28,#PWR81-82,#PWR97,#PWR119-120,#PWR164-175,Q13-14,R80-83,U22-23",
     "variants": []
   },
   "sheets": [
@@ -699,6 +704,10 @@
     [
       "a33bb2f4-47e5-4150-9820-94c9203f0e27",
       "Linear Converters"
+    ],
+    [
+      "1185f329-4d82-40ea-a8af-41c123e478f8",
+      "System Power"
     ]
   ],
   "text_variables": {},
