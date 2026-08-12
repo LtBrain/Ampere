@@ -9814,7 +9814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 38.1 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -16914,7 +16914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TPD4S480:RUK0020B-IPC_B"
+		(property "Footprint" "TPD4S480:RUK0020B-MFG"
 			(at 189.865 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -17216,7 +17216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 30.48 179.07 0)
 			(hide yes)
 			(show_name no)
