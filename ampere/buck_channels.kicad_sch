@@ -6,6 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Buck-Boost Regulator Channels")
+		(rev "B")
 		(comment 1 "Brian Guan")
 		(comment 2 "INA238")
 		(comment 3 "TPS55289")
@@ -3962,6 +3963,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e90fd051-3ef1-40ef-8d08-5a82337c24bb")
+	)
+	(junction
+		(at 129.54 69.215)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea32753a-bfe2-4951-97a6-c3e91aa0a33f")
 	)
 	(junction
 		(at 232.41 153.67)
@@ -10346,10 +10353,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "188545ec-56ea-4b65-9ab0-e49ef10553a9")
 		(property "Reference" "R37"
-			(at 120.65 69.85 90)
+			(at 120.65 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10359,7 +10365,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 120.65 72.39 90)
+			(at 120.65 73.025 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10651,6 +10657,85 @@
 			(project "ampere"
 				(path "/329c36c3-da44-49fd-8f70-d92646be88d6"
 					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 69.215 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "205fdf96-609a-4865-8551-37644e426988")
+		(property "Reference" "#PWR0195"
+			(at 118.11 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND"
+			(at 121.285 69.2149 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fbe3492-efda-4376-9636-6b0359491f2c")
+		)
+		(instances
+			(project "ampere"
+				(path "/329c36c3-da44-49fd-8f70-d92646be88d6"
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -11638,7 +11723,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 201.93 111.125 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12005,6 +12090,86 @@
 			(project "ampere"
 				(path "/329c36c3-da44-49fd-8f70-d92646be88d6"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 127 69.215 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e57abae-7230-41c9-924e-e677c25e8b97")
+		(property "Reference" "NT2"
+			(at 126.365 67.945 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 127 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 127 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 127 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a08784b3-a8ec-480a-a911-aa9067c2180e")
+		)
+		(pin "1"
+			(uuid "bad6954a-13eb-49a8-975a-3647ec10aff5")
+		)
+		(instances
+			(project "ampere"
+				(path "/329c36c3-da44-49fd-8f70-d92646be88d6"
+					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -13308,7 +13473,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 139.065 111.125 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19424,7 +19589,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 114.935 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21931,7 +22096,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4563dc9-1675-44b8-a1f4-4eba76cdcb06")
 		(property "Reference" "#PWR070"
 			(at 198.12 100.965 0)
@@ -21945,7 +22109,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 99.695 0)
+			(at 198.755 99.695 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22577,7 +22741,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 139.065 74.295 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22959,7 +23123,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f28bfe36-bca5-4744-b563-1952635c4c65")
 		(property "Reference" "#PWR069"
 			(at 194.31 100.965 0)
@@ -22972,8 +23135,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 194.31 99.695 0)
+		(property "Value" "AGND"
+			(at 193.675 99.695 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23600,7 +23763,7 @@
 		(dnp no)
 		(uuid "fc50f063-c1c9-4a58-9cf3-7438a5479287")
 		(property "Reference" "NT1"
-			(at 127 142.875 0)
+			(at 126.365 142.875 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

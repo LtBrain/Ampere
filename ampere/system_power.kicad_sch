@@ -7,6 +7,7 @@
 	(title_block
 		(title "System Power Rails")
 		(date "2026-08-10")
+		(rev "A")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
