@@ -3647,6 +3647,12 @@
 		(uuid "785b339d-4c2d-41eb-b6fc-8b77e7cfd361")
 	)
 	(junction
+		(at 139.065 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c68b39d-4451-4416-9086-7c3c280ef7a2")
+	)
+	(junction
 		(at 280.035 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3843,6 +3849,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb5e5702-8d32-4fbc-86f9-fc0bbf5b8793")
+	)
+	(junction
+		(at 139.065 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0da80e8-8238-4a37-ad70-662d20f5d1ff")
 	)
 	(junction
 		(at 129.54 200.025)
@@ -4594,6 +4606,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.065 134.62) (xy 129.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266778f0-6701-4af3-90a8-926cb34d20e1")
+	)
+	(wire
+		(pts
 			(xy 139.065 213.36) (xy 139.065 213.995)
 		)
 		(stroke
@@ -5284,6 +5306,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.065 59.69) (xy 139.065 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cf5a59-6df7-44ad-a53a-dabd841bdb64")
+	)
+	(wire
+		(pts
 			(xy 158.75 205.74) (xy 158.115 205.74)
 		)
 		(stroke
@@ -5304,7 +5336,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 134.62) (xy 129.54 134.62)
+			(xy 158.75 134.62) (xy 139.065 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6514,7 +6546,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 59.69) (xy 129.54 59.69)
+			(xy 158.75 59.69) (xy 139.065 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7884,6 +7916,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.065 59.69) (xy 129.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb7e7b8-176c-4aea-80cc-35f52efb0223")
+	)
+	(wire
+		(pts
 			(xy 129.54 106.045) (xy 139.065 106.045)
 		)
 		(stroke
@@ -8281,6 +8323,16 @@
 			(type default)
 		)
 		(uuid "f1ef084b-55c1-4789-8f1e-3758b3025de9")
+	)
+	(wire
+		(pts
+			(xy 139.065 134.62) (xy 139.065 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f49a62-b7d5-41b5-a806-95b77e6dcd84")
 	)
 	(wire
 		(pts
@@ -10764,7 +10816,7 @@
 			)
 		)
 		(property "Value" "EXTVCC"
-			(at 140.335 136.525 90)
+			(at 149.86 136.525 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18163,7 +18215,7 @@
 			)
 		)
 		(property "Value" "EXTVCC"
-			(at 140.335 61.595 90)
+			(at 147.955 61.595 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
